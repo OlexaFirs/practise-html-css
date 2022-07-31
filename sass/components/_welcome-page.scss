@@ -10,7 +10,6 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-    
     font-family: "Roboto", sans-serif;
 }
 
@@ -77,14 +76,7 @@ body {
     transition: 1.5s;
 }
 
-.loader:hover span::before {
-    transform-origin: 250px;
-    box-shadow: 0 0 20px #00efff, -100px -200px 0 #00efff,
-        -500px -200px 20px #00efff, 800px 200px 0 #00efff, 600px 200px 20px #00efff,
-        700px -200px 0 #00efff, 100px -200px 20px #00efff, -300px 200px 0 #00efff,
-        -900px 200px 20px #00efff;
-}
-
+.loader:hover span::before,
 .loader:active span::before {
     transform-origin: 250px;
     box-shadow: 0 0 20px #00efff, -100px -200px 0 #00efff,
@@ -92,6 +84,8 @@ body {
         700px -200px 0 #00efff, 100px -200px 20px #00efff, -300px 200px 0 #00efff,
         -900px 200px 20px #00efff;
 }
+
+
 
 @keyframes animate {
     0% {

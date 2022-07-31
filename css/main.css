@@ -52,8 +52,8 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 1000px;
   border-radius: 50%;
   padding-left: 15px;
   padding-right: 15px;
@@ -147,13 +147,7 @@ body {
   transition: 1.5s;
 }
 
-.loader:hover span::before {
-  -webkit-transform-origin: 250px;
-          transform-origin: 250px;
-  -webkit-box-shadow: 0 0 20px #00efff, -100px -200px 0 #00efff, -500px -200px 20px #00efff, 800px 200px 0 #00efff, 600px 200px 20px #00efff, 700px -200px 0 #00efff, 100px -200px 20px #00efff, -300px 200px 0 #00efff, -900px 200px 20px #00efff;
-          box-shadow: 0 0 20px #00efff, -100px -200px 0 #00efff, -500px -200px 20px #00efff, 800px 200px 0 #00efff, 600px 200px 20px #00efff, 700px -200px 0 #00efff, 100px -200px 20px #00efff, -300px 200px 0 #00efff, -900px 200px 20px #00efff;
-}
-
+.loader:hover span::before,
 .loader:active span::before {
   -webkit-transform-origin: 250px;
           transform-origin: 250px;
